@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etsy Design Confirmation - 19f1e1306bbd80a3</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 50px 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            max-width: 700px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .design-preview {
+            margin: 30px 0;
+        }
+        .design-preview img {
+            max-width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            margin: 20px;
+        }
+        .button {
+            display: inline-block;
+            background: #ff6b35;
+            color: white;
+            padding: 25px 50px;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 22px;
+            margin: 30px 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+            background: #e55a2b;
+        }
+        .highlight {
+            background: rgba(255, 107, 53, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #ff6b35;
+        }
+    </style>
+    <script>
+        // Function to URL encode and build the form URL with correct sequential mapping
+        function buildFormURL() {
+            const baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLScFfT9MAqMf926UPf21rnThgW9yK17nTUfDv5qXHqpbzVOdDA/viewform?usp=pp_url';
+            const params = {
+                'entry.478597775': '19f1e1306bbd80a3',
+                'entry.1703275196': 'snov3nadav@gmail.com',
+                'entry.943059104': `EMPTY_RESPONSE_ERROR`,
+                'entry.255677469': 'approved',
+                'entry.1523072764': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/oMSLmwkIDIfeYopBHlXi8Z8khRoXNNI5_IMV-wS4S7Ru2m5iZkoc25MFmINUFgmtJlrlN3Dbd76V6goYzHLBz-s05xRMay9VUbCMRbXEIoHh8IIrCjGQcSkkZYH4bforgoc2PtzCcUDjIGwjiJxyRMTXI7U4LHXWxD-RZm9AR7M', // Stage 7 - Original Design
+                'entry.1090073882': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/G4iUm0mclswha1YaADAcvXrhbLXZHwhqYkN9OzwUPGWKi60LgMMbP8D5xTrWW33AFLk6hjMq-d-kncG9TdLBspTGdzAbBFI1ifX79CKyD9omhW4lWhif3x6kleg-fOXQJ5vtgD38PiFMbotuVoUHEjThmlttAjmOa-5btkMffoo', // Stage 8 - Etsy enhanced colors
+                'entry.1477627983': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/P-lnme_1Z_4lLKBvMD-7-EFiytaC7kmpq93w5K-JR1A_FPKGgkhdu5vWrWcjtu8n0owBn6Lw0zimuxVReCHBdbBqUSVga3ZYEpSoJpYZvd4cq7JXPYAIl4DNzhKxuwJKnjnodwPQ7z5TdtQEEPUbz6Brij9hIkG3rCEFFZlyTDM', // Stage 9 - Etsy plain background
+                'entry.916693119': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/4BxUfBQoA3hHxE8k-ytkoPA6rQd6V7EUtEWSdzK8b17OWBx24-RBdJ2qJCwevAOg8FW_iZAKwHLXPu3BrR8UhayBZD0qfIMwXgLwRlBPFAh_kU5Um12mIkibrjE_JF-cxo-y-rvZxsYGi3e-kh_LAsWQnQJE4YeFWta7ZQ3aScU', // Stage 10 - T-shirt variation 1
+                'entry.2137423970': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/T3-ynDTWntY43waKspEHxg2Ffo1XlGF5L6Ji8-G75aZ9BlxaePaQ8oivO-lUFMSDIfMaI0EoeuWjbVYh88Zob0cJTHV8r2BbnjqlYQZU8z5a0cOuAHPmhigxFkKJ2YTFXV_lPMU7hEPP68wkvRpvzKB1idrEU6iopFvdB2z89v8', // Stage 11 - T-shirt variation 2
+                'entry.451940372': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/nJqB-ItqHdK4GIfMbsJfevM1qe63kxlIQFF7fuz1sLomXGQInG6Iwtq7JkynszPbSXKaznR71dN9qcf1z6Xqaal-sLeDkPaWVtLzhcLvZGarSzpYjEDEcnRaFjaOtgER9TLEfwGhPx8hIbWRT1F2xtQYHq_Zx6GwOQwZW6y-HUs', // Stage 12 - Woman model 1
+                'entry.443139963': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/n5yAepMxexwUgW8zszMxd9jhlkNjACpNYa2FZ3IXXTFj2nOSiaJCyjiRFKL-lXHWWV5pflqXoNHdy3hfWphsquIkGHv16HKhM1RPAIVU3ldq5iw0MPdBlnqnEeZZw8NnnWiXYlXom4gMq7O2jVeCXxp5gPsMYvzvI2BttcDAWXE', // Stage 13 - T-shirt variation 3
+                'entry.904667395': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/q6fRztyLGmHL7n5WmIct4TnVBP_uVsoyv6CLaC7sJ1VrKAKBdQAvOY3ZRb3gJfRcIVscJU5iy6WgJDE9SdBxVGiGRs3A7iTSeIRh_TVnS83DO7sdckYW6q4gs9mSjN2bZ2bdgigFl98lKVzQ8P3FzoeajTkWP1nVG2E57X-2gbA', // Stage 14 - T-shirt variation 4
+                'entry.133202285': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/ml2P1KONyEVhcxg-N-JPQrEBJEqZ9xkl31moeJ8Ky5WUARzX0E2GmUhlzSriWUKNocmQOXxlaEtGWpH15bYfGyyXh8x-CZzOCMLPCVt4fm49wiJeXJStHQvAx5rR4mgOHPj1s1myZQY5tpKQt_Vr6Gn0I_n4iX0Tqk10vsBN3nI', // Stage 15 - T-shirt variation 5
+                'entry.252073688': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/vm5iWogzZBgmh4EduRgPFrU5vl591aUXBc4ZuJhiqfqeMVCXEE9KhefjeKZidlSYwrcYkzid4RDNJYVPQU-8WwE1j6nAoXpVIsZxGHi5nsWfAhZI1H77jQfTRtgavt4kJvka0Tx4UBCDDh8ebN6CLjDUU6iVErhwlKipRj2RKdE', // Stage 16 - T-shirt variation 6
+                'entry.995767330': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/WPHePPFYUjeMQtkrGeZxhui31Rftn8EohQ6cooM2jApT1lVpqzQbKCwUhUd2DdQ-vVHaN_Em-LrnZUETKeEbUQkqTsSDQQBYMBLcvvlt3thPqg9kq0oQUyFkwpvcvkFDLRym5qZu_LA3F8ADolcHdEls5uHGs7cn-KIJ3SYqZFo', // Stage 17 - T-shirt variation 7
+                'entry.746145921': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/HvEi1Ql4WiEbTACjdHRLTVJIAJAswRZjS4lgr-1NKCeWIvZ9G208HTeVDwrrd0s_zK59KeElLKE226ht8Z3X-v4ZAOf2-LgKsQJFTGZWu0PB0yxSjuZkUcu7oQmKEeDN0BZ909L7-4zKL5Md6bPGPT2UGQVG5Q6dkljy4kXEnwI', // Stage 18 - Woman model 2
+                'entry.89554200': 'https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/bNOS5DogD13zzD46YRbfov_lu4dHdBria9a0PGOnjWLxYaGWp9X-0DkTfkcrCw81e18mZMiNghBkTS6d7vfqda3ZbjTVN3Sca6DflnpjR1HsSbrVmISbZk9L0r07GvS3zp_ys13MlXXa4IXDoxpFCv1owcgvL6l04p4g5JWXI1I', // Stage 19 - Woman model 3
+                'entry.1513291965': 'https://res.cloudinary.com/da6nwqsja/image/upload/w_4096,h_4096,c_fit,q_auto:best/etsy_designs/gemini_design_upscaled_19f1e1306bbd80a3.png' // Stage 22 - Cloudinary 4096x4096 - FIXED TO LOWERCASE
+            };
+            
+            const urlParams = new URLSearchParams();
+            for (const [key, value] of Object.entries(params)) {
+                if (value && value.trim() !== '') {
+                    urlParams.append(key, value);
+                }
+            }
+            
+            return baseURL + '&' + urlParams.toString();
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Your Etsy Design is Ready!</h1>
+        
+        <div class="design-preview">
+            <img src="https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/P-lnme_1Z_4lLKBvMD-7-EFiytaC7kmpq93w5K-JR1A_FPKGgkhdu5vWrWcjtu8n0owBn6Lw0zimuxVReCHBdbBqUSVga3ZYEpSoJpYZvd4cq7JXPYAIl4DNzhKxuwJKnjnodwPQ7z5TdtQEEPUbz6Brij9hIkG3rCEFFZlyTDM" alt="Your Custom Design - Main Etsy Image">
+            <img src="https://zapier-dev-files.s3.amazonaws.com/cli-platform/20635/oMSLmwkIDIfeYopBHlXi8Z8khRoXNNI5_IMV-wS4S7Ru2m5iZkoc25MFmINUFgmtJlrlN3Dbd76V6goYzHLBz-s05xRMay9VUbCMRbXEIoHh8IIrCjGQcSkkZYH4bforgoc2PtzCcUDjIGwjiJxyRMTXI7U4LHXWxD-RZm9AR7M" alt="Your Original Design">
+        </div>
+        
+        <div class="highlight">
+            <h3>📦 Complete Package Ready:</h3>
+            <p style="margin: 10px 0;">✅ Original Design + HIGH-RES 4096x4096 Print File<br>
+            ✅ 2 Etsy-Optimized Main Images<br>
+            ✅ 7 Professional T-Shirt Mockups<br>
+            ✅ 3 Lifestyle Model Photos<br>
+            ✅ Complete SEO Package (Title, Tags, Description)</p>
+        </div>
+        
+        <p style="font-size: 18px; margin: 30px 0;">Click below to confirm and create your optimized Etsy listing with all generated images and SEO content!</p>
+        
+        <a href="#" onclick="window.open(buildFormURL(), '_blank'); return false;" class="button">
+            ✅ CONFIRM & CREATE ETSY LISTING NOW
+        </a>
+        
+        <p style="font-size: 14px; margin: 30px 0; opacity: 0.9;">⚡ One-click confirmation • Automatic Google Sheets entry • ALL 18 data fields included • SEO optimized</p>
+        
+        <p style="font-size: 12px; margin-top: 20px; opacity: 0.7;">Design ID: 19f1e1306bbd80a3 | Generated automatically by your Etsy workflow</p>
+    </div>
+</body>
+</html>
